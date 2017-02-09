@@ -1,6 +1,11 @@
 <div id="share-options-bar" class="share-options-bar" data-behavior="{{ .Scratch.Get "sidebarBehavior" }}">
   <ul class="share-options">
     <li class="share-option">
+      <a class="share-option-btn" target="new" href="https://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}">
+        <i class="fa fa-linkedin"></i><span>{{ i18n "global.share_on_linkedin" }}</span>
+      </a>
+    </li>
+    <li class="share-option">
       <a class="share-option-btn" target="new" href="https://plus.google.com/share?url={{ .Permalink }}">
         <i class="fa fa-google-plus"></i><span>{{ i18n "global.share_on_google_plus" }}</span>
       </a>

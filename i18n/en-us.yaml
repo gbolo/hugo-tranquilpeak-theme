@@ -59,6 +59,9 @@
 - id: "global.share_on_twitter"
   translation: "Share on Twitter"
 
+- id: "global.share_on_linkedin"
+  translation: "Share on Linkedin"
+
 - id: "global.search_category"
   translation: "Search category"
 
