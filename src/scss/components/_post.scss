@@ -41,6 +41,8 @@
             display:   block;
             width:     auto;
             max-width: 100%;
+            margin-left: auto;
+            margin-right: auto;
         }
         :not(blockquote):not(.alert) {
             & > p {

@@ -44,6 +44,13 @@
     .postShorten-excerpt_link {
         // Bring the post's link nearest of the excerpt
         margin-top: -15px;
+        // customize link
+        display: inline-block;
+        background-color: rgba(0, 0, 0, 0.75);
+        padding-left: 10px;
+        padding-right: 10px;
+        color: white;
+        text-decoration: none;
     }
     .postShorten-meta,
     .postShorten-readingtime,
